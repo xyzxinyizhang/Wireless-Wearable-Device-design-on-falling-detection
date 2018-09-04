@@ -1,0 +1,44 @@
+$date
+	Tue May 09 10:18:33 2017
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	100ps
+$end
+
+$scope module clkdiv3_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " reset $end
+$var wire 1 # clk_out $end
+
+$scope module t1 $end
+$var parameter 32 $ WIDTH $end
+$var parameter 32 % N $end
+$var wire 1 & clk $end
+$var wire 1 ' reset $end
+$var wire 1 # clk_out $end
+$var reg 3 ( pos_count [2:0] $end
+$var reg 3 ) neg_count [2:0] $end
+$var wire 1 * r_nxt [2] $end
+$var wire 1 + r_nxt [1] $end
+$var wire 1 , r_nxt [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+x"
+bx (
+bx )
+b11 $
+b101 %
+x#
+z,
+z+
+z*
+x'
+0&
+$end
