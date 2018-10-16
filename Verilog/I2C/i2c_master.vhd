@@ -14,18 +14,8 @@
 --   BY THIRD PARTIES (INCLUDING BUT NOT LIMITED TO ANY DEFENSE THEREOF),
 --   ANY CLAIMS FOR INDEMNITY OR CONTRIBUTION, OR OTHER SIMILAR COSTS.
 --
---   Version History
---   Version 1.0 11/01/2012 Scott Larson
---     Initial Public Release
---   Version 2.0 06/20/2014 Scott Larson
---     Added ability to interface with different slaves in the same transaction
---     Corrected ack_error bug where ack_error went 'Z' instead of '1' on error
---     Corrected timing of when ack_error signal clears
---   Version 2.1 10/21/2014 Scott Larson
---     Replaced gated clock with clock enable
---     Adjusted timing of SCL during start and stop conditions
---   Version 2.2 02/05/2015 Scott Larson
---     Corrected small SDA glitch introduced in version 2.1
+--   This file is based on Scott Larson's version 2.2.
+--   Author: NIck and Xinyi
 -- 
 --------------------------------------------------------------------------------
 
