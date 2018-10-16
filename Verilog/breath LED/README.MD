@@ -1,3 +1,3 @@
 # TIPS
 
-The breathing LED is designed here to make sure the clock is tuned correctly.
+The breathing LED is designed here to check whether the clock is tuned correctly.
